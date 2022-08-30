@@ -1,1 +1,1 @@
-This is to test the working of GIT.
+This project is to test the working of GIT.
