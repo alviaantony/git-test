@@ -28,3 +28,6 @@ git branch -> Lists all branches.
 git branch <branchname> -> Creates a new branch.
 git checkout <branchname> -> Moves to that branch.
 git checkout -b <branchname> -> will create a new branch with that name and moves to it.
+git branch -d <banchname>
+git merge my_new_branch -> Merges the branch histories together. We get the changes made to my_new_branch in main branch.
+(running the command after checking out to main branch)
