@@ -1,0 +1,10 @@
+Git 
+----
+git init
+git remote add <remote_name> <remote_repo_url>
+    eg: rit remote add origin https://github.com/alviaantony/git-test.git
+git status
+git add README.md
+git commit -m “first commit”
+git branch -M main
+git push -u origin main
