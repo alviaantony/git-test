@@ -31,3 +31,7 @@ git checkout -b <branchname> -> will create a new branch with that name and move
 git branch -d <banchname>
 git merge my_new_branch -> Merges the branch histories together. We get the changes made to my_new_branch in main branch.
 (running the command after checking out to main branch)
+git fork -> Feature provided by third parties like github. A serverside copy of someone's repository could be added to our account in 
+            github. We can then clone this to local, make modifications and push. Once we are happy with the changes maybe we can raise
+            pull request to merge this to the original someone else's repository and that person may approve. 
+            When we want less collaboration.
