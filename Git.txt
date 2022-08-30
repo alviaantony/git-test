@@ -12,3 +12,19 @@ git commit -a -m "Second commit" -> Moves the file from working area to git dire
                                     Can only be applied on tracked files(ie, files in the staging area).
 git restore --staged README.md -> Unstage the changes (ie remove the changes added to staging area).
 git restore README.md -> Remove the changes from working directory.
+git push
+git config -l
+git config --global user.name "My new name"
+git config --global user.email "My new email"
+git log
+git log -p -> Detailed log.
+git log --oneline -> Info in one line.
+git log --stat
+git show 24df6c3ba235d19f18f0611b5cde67f7ab69f382
+git revert HEAD -> To revert the last commit.
+git log -p -2 -> To view details of only the last 2 commits.
+git revert <commit id> -> To move to a particular commit.
+git branch -> Lists all branches.
+git branch <branchname> -> Creates a new branch.
+git checkout <branchname> -> Moves to that branch.
+git checkout -b <branchname> -> will create a new branch with that name and moves to it.
